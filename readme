@@ -1,0 +1,4 @@
+first install : moviepy
+pip install moviepy
+then choose you video file right click on it and select copy as path and paste it in the loaction
+and also choose your output folder
