@@ -1,0 +1,9 @@
+from moviepy import VideoFileClip
+
+# Load video file
+video = VideoFileClip(r"C:\Users\abc.mp4")
+
+# Extract audio and save as MP3
+video.audio.write_audiofile("C:\Users\Downloads")
+
+print("Conversion completed!")
